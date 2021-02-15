@@ -2,6 +2,7 @@ fs = require('fs');
 
 var inquirer = require('inquirer');
 
+
 inquirer
   .prompt([
     {
@@ -62,7 +63,7 @@ inquirer
             <li><a href="Email"></a>Email</li>
     </h3>
     <br>
-    <h2 id="Description">Application Description</>
+    <h2">Application Description</>
     <p>
         ${answers.description}
     </p>
@@ -84,6 +85,8 @@ inquirer
     <br>
     <h3>Email</h3>
     <p>${answers.email}</p>
+    
+    
     `, function (err,data) {
       if (err) {
         return console.log(err);
