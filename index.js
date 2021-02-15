@@ -53,17 +53,17 @@ inquirer
     </h1>
     <br>
     <h3>Table of Contents:
-    <ol>
-            <li><a href="#Description"></a>Application Description</li>
-            <li><a href="Installation Instructions:"></a>Installation Instructions:</li>
-            <li><a href="License Type:"></a>License Type:</li>
-            <li><a href="Test Instructions:"></a>Test Instructions:</li>
-            <li><a href="Contributors"></a>Contributors</li>
-            <li><a href="GitHub Account"></a>GitHub Account</li>
-            <li><a href="Email"></a>Email</li>
-    </h3>
+        ## Table of Contents
+        - [Description](#description)
+        - [Table of Contents](#table-of-contents)
+        - [Installation](#installation)
+        - [Usage](#usage)
+        - [License](#license)
+        - [Contributing](#contributing)
+        - [Tests](#tests)
+        - [Questions](#questions)
     <br>
-    <h2 id="Description">Application Description</>
+    <h2 id="description">Application Description</h2>
     <p>
         ${answers.description}
     </p>
@@ -85,8 +85,6 @@ inquirer
     <br>
     <h3>Email</h3>
     <p>${answers.email}</p>
-    
-    
     `, function (err,data) {
       if (err) {
         return console.log(err);
