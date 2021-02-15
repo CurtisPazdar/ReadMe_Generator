@@ -4,7 +4,7 @@ Curtis Pazdar
 <br>
 <h3>Table of Contents:
 <ol>
-        <li><a href="Application Description"></a>Application Description</li>
+        <li><a href="#Description"></a>Description</li>
         <li><a href="Installation Instructions:"></a>Installation Instructions:</li>
         <li><a href="License Type:"></a>License Type:</li>
         <li><a href="Test Instructions:"></a>Test Instructions:</li>
@@ -13,7 +13,7 @@ Curtis Pazdar
         <li><a href="Email"></a>Email</li>
 </h3>
 <br>
-<h2>Application Description</h2>
+<h2 id="Description">Application Description</h2>
 <p>
     I am trying to get my application to work
 </p>
