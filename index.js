@@ -48,42 +48,42 @@ inquirer
   ])
   .then(answers => {
     fs.writeFile("README.MD",`<h1>
-${answers.projectTitle}
-</h1>
-<br>
-<h3>Table of Contents:
-<ol>
-        <li><a href="Application Description"></a>Application Description</li>
-        <li><a href="Installation Instructions:"></a>Installation Instructions:</li>
-        <li><a href="License Type:"></a>License Type:</li>
-        <li><a href="Test Instructions:"></a>Test Instructions:</li>
-        <li><a href="Contributors"></a>Contributors</li>
-        <li><a href="GitHub Account"></a>GitHub Account</li>
-        <li><a href="Email"></a>Email</li>
-</h3>
-<br>
-<h2>Application Description</h2>
-<p>
-    ${answers.description}
-</p>
-<br>
-<h3>Installation Instructions:</h3>
-<p>${answers.installationInstructions}</p>
-<br>
-<h3>License Type:</h3>
-<p>${answers.license}</p>
-<br>
-<h3>Test Instructions:</h3>
-<p>${answers.test}</p>
-<br>
-<h3>Contributors</h3>
-<p>${answers.contributors}</p>
-<br>
-<h3>GitHub Accounts</h3>
-<p>${answers.git}</p>
-<br>
-<h3>Email</h3>
-<p>${answers.email}</p>
+    ${answers.projectTitle}
+    </h1>
+    <br>
+    <h3>Table of Contents:
+    <ol>
+            <li><a href="#Description"></a>Application Description</li>
+            <li><a href="Installation Instructions:"></a>Installation Instructions:</li>
+            <li><a href="License Type:"></a>License Type:</li>
+            <li><a href="Test Instructions:"></a>Test Instructions:</li>
+            <li><a href="Contributors"></a>Contributors</li>
+            <li><a href="GitHub Account"></a>GitHub Account</li>
+            <li><a href="Email"></a>Email</li>
+    </h3>
+    <br>
+    <h2 id="Description">Application Description</>
+    <p>
+        ${answers.description}
+    </p>
+    <br>
+    <h3>Installation Instructions:</h3>
+    <p>${answers.installationInstructions}</p>
+    <br>
+    <h3>License Type:</h3>
+    <p>${answers.license}</p>
+    <br>
+    <h3>Test Instructions:</h3>
+    <p>${answers.test}</p>
+    <br>
+    <h3>Contributors</h3>
+    <p>${answers.contributors}</p>
+    <br>
+    <h3>GitHub Accounts</h3>
+    <p>${answers.git}</p>
+    <br>
+    <h3>Email</h3>
+    <p>${answers.email}</p>
     `, function (err,data) {
       if (err) {
         return console.log(err);
