@@ -4,7 +4,7 @@
     <br>
     <h3>Table of Contents:
     <ol>
-            <li><a href="#Description"></a>Application Description</li>
+            <li><a href="#user-content-description"></a>Application Description</li>
             <li><a href="Installation Instructions:"></a>Installation Instructions:</li>
             <li><a href="License Type:"></a>License Type:</li>
             <li><a href="Test Instructions:"></a>Test Instructions:</li>
@@ -13,7 +13,7 @@
             <li><a href="Email"></a>Email</li>
     </h3>
     <br>
-    <h2 id="Description">Application Description</>
+    <h2>Application Description</>
     <p>
         I AM REALLY TRYING TO GET THIS GUY TO WORK
     </p>
