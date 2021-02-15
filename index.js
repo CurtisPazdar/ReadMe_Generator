@@ -37,12 +37,20 @@ inquirer
       },
       {
         type: 'input',
-        message: 'Contributors?',
+        message: 'Please input?',
         name: 'contributors',
       },
   ])
   .then(answers => {
-    fs.writeFile("README.MD",`<h1>${answers.projectTitle}</h1>`, function (err,data) {
+    fs.writeFile("README.MD",`<h1>${answers.projectTitle}</h1>
+    <br>
+    <h3>Installation Instructions:</h3>
+    <p>${answers.installationInstructions}</p>
+    <br>
+    <h3>License Type:</h3>
+    <p>${answers.license}</p>
+    <br>
+    `, function (err,data) {
       if (err) {
         return console.log(err);
       }
