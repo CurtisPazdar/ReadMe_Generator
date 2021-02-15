@@ -47,20 +47,19 @@ inquirer
       },
   ])
   .then(answers => {
-    fs.writeFile("README.MD",`
-    <h1>${answers.projectTitle}</h1>
+    fs.writeFile("README.MD",`<h1>
+${answers.projectTitle}
+</h1>
 <br>
 <h3>Table of Contents:
-    <ol>
-        <li><a href="Application Description"></a></li>
-        <li><a href="Installation Instructions:"></a></li>
-        <li><a href="License Type:"></a></li>
-        <li><a href="Test Instructions:"></a></li>
-        <li><a href="Contributors"></a></li>
-        <li><a href="GitHub Account"></a></li>
-        <li><a href="Email"></a></li>
-
-    </ol>
+<ol>
+        <li><a href="Application Description"></a>Application Description</li>
+        <li><a href="Installation Instructions:"></a>Installation Instructions:</li>
+        <li><a href="License Type:"></a>License Type:</li>
+        <li><a href="Test Instructions:"></a>Test Instructions:</li>
+        <li><a href="Contributors"></a>Contributors</li>
+        <li><a href="GitHub Account"></a>GitHub Account</li>
+        <li><a href="Email"></a>Email</li>
 </h3>
 <br>
 <h2>Application Description</h2>
