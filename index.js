@@ -11,6 +11,11 @@ inquirer
       },
       {
         type: 'input',
+        message: 'Please describe your application:',
+        name: 'description',
+      },
+      {
+        type: 'input',
         message: 'Necessary installation instruction/requirements?',
         name: 'installationInstructions',
       },
@@ -33,23 +38,53 @@ inquirer
       {
         type: 'input',
         message: 'Please input GitHub user name',
-        name: 'contributors',
+        name: 'git',
       },
       {
         type: 'input',
-        message: 'Please input?',
-        name: 'contributors',
+        message: 'Please input email address',
+        name: 'email',
       },
   ])
   .then(answers => {
-    fs.writeFile("README.MD",`<h1>${answers.projectTitle}</h1>
-    <br>
-    <h3>Installation Instructions:</h3>
-    <p>${answers.installationInstructions}</p>
-    <br>
-    <h3>License Type:</h3>
-    <p>${answers.license}</p>
-    <br>
+    fs.writeFile("README.MD",`
+    <h1>${answers.projectTitle}</h1>
+<br>
+<h3>Table of Contents:
+    <ol>
+        <li><a href="Application Description"></a></li>
+        <li><a href="Installation Instructions:"></a></li>
+        <li><a href="License Type:"></a></li>
+        <li><a href="Test Instructions:"></a></li>
+        <li><a href="Contributors"></a></li>
+        <li><a href="GitHub Account"></a></li>
+        <li><a href="Email"></a></li>
+
+    </ol>
+</h3>
+<br>
+<h2>Application Description</h2>
+<p>
+    ${answers.description}
+</p>
+<br>
+<h3>Installation Instructions:</h3>
+<p>${answers.installationInstructions}</p>
+<br>
+<h3>License Type:</h3>
+<p>${answers.license}</p>
+<br>
+<h3>Test Instructions:</h3>
+<p>${answers.test}</p>
+<br>
+<h3>Contributors</h3>
+<p>${answers.contributors}</p>
+<br>
+<h3>GitHub Accounts</h3>
+<p>${answers.git}</p>
+<br>
+<h3>Email</h3>
+<p>${answers.email}</p>
     `, function (err,data) {
       if (err) {
         return console.log(err);
