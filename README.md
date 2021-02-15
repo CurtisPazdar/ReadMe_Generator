@@ -11,6 +11,7 @@
             <li><a href="Contributors"></a>Contributors</li>
             <li><a href="GitHub Account"></a>GitHub Account</li>
             <li><a href="Email"></a>Email</li>
+    </ol>
     </h3>
     <br>
     <h2 id="Description">Application Description</>
