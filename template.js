@@ -1,4 +1,4 @@
-// generateReadme function populating the README.md
+// generateReadme function populating the README.md file with a template literal. 
 function generateReadme(answers) {
     return `
 <h1 align="center">${answers.projectTitle} </h1>
@@ -48,6 +48,7 @@ This application is covered by the ${answers.license} license.
 ${answers.email}<br /><br />
 `;
   }
+  //module.export the result the the above function.
   
   module.exports = generateReadme;
 

@@ -1,8 +1,10 @@
+//necessary requires. File save. inquirer. & the javascript template for our read me file.
 fs = require('fs');
 
 const inquirer = require('inquirer');
 const template = require("./template")
 
+//function to generate the prompts in the terminal to grab user input
 function generateUserInput() {
   
 inquirer
@@ -61,7 +63,11 @@ inquirer
   ])
   .then(answers => {
 
+    //creating a variable that is equivalent to running the answers object created from user input in the prompts to pass through javascript template for our read me file.
+
     const content = template(answers);
+
+    //fileSave. write file with the title "README.MD" that contains the content of the variable content. 
 
     fs.writeFile("README.MD",content,function (err,data) {
       if (err) {
@@ -72,5 +78,6 @@ inquirer
   });
 };
 
+//run the generate user input function on node index.js
 generateUserInput();
  
