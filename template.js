@@ -5,42 +5,42 @@ function generateReadme(answers) {
   
 ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)<br />
 
- <br />
-- Table of Contents
+
+## Description
+🔍 ${answers.description}
+
+## Table of Contents
 - [Description](#description)
 - [Installation](#installationInstructions)
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributors)
 - [Tests](#test)
-- [Links](#git)
-<br />
 
-##Description 
- ${answers.description}
-##Installation Instructions:
+
+## Installation Instructions:
  ${answers.installationInstructions}
- <br />
-##Usage
+
+## Usage
  ${answers.usage}
- <br />
- ##License
+
+## License
  ${answers.license}
- <br />
+
 This application is covered by the ${answers.license} license. 
-<br />
-##Contributing
+
+## Contributing
  ${answers.contributors}
- <br />
- ##Tests
+
+## Tests
  ${answers.test}
-<br />
-<br />
-##GitHub:
+
+## GitHub:
 <br />
 [${answers.git}](https://github.com/${answers.git})<br />
 <br />
-##Email: <br />
+
+## Email: <br />
 ${answers.email}<br /><br />
 `;
   }

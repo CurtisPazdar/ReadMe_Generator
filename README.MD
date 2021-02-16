@@ -1,41 +1,48 @@
 <h1 align="center">Curtis Pazdar </h1>
   
-![badge](https://img.shields.io/badge/license-Open-brightgreen)<br />
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 
- <br />
-- Table of Contents
+## Description
+
+🔍 The application is going to work this time
+
+## Table of Contents
+
 - [Description](#description)
 - [Installation](#installationInstructions)
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributors)
 - [Tests](#test)
-- [Links](#git)
+
+## Installation Instructions:
+
+none
+
+## Usage
+
+To create readmes
+
+## License
+
+MIT
+
+This application is covered by the MIT license.
+
+## Contributing
+
+Curtis Pazdar
+
+## Tests
+
+the test instructions are null
+
+## GitHub:
+
+<br />
+[CurtisPazdar](https://github.com/CurtisPazdar)<br />
 <br />
 
-##Description
-jklfdjklaf
-##Installation Instructions:
-jklljkkl
-<br />
-##Usage
-jfklda
-<br />
-##License
-Open
-<br />
-This application is covered by the Open license.
-<br />
-##Contributing
-adjfkl
-<br />
-##Tests
-dklajf
-<br />
-<br />
-##GitHub:
-<br />
-[jkdfal](https://github.com/jkdfal)<br />
-<br />
-##Email: <br />
-dfaklj<br /><br />
+## Email:
+
+curtis.pazdar@gmail.com<br /><br />
