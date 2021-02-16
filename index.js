@@ -40,6 +40,11 @@ inquirer
       },
       {
         type: 'input',
+        message: 'Questions?',
+        name: 'questions',
+      },
+      {
+        type: 'input',
         message: 'Contributors?',
         name: 'contributors',
       },

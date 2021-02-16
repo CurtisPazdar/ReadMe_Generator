@@ -7,7 +7,7 @@ function generateReadme(answers) {
 
 
 ## Description
-🔍 ${answers.description}
+ ${answers.description}
 
 ## Table of Contents
 - [Description](#description)
@@ -16,6 +16,7 @@ function generateReadme(answers) {
 - [License](#license)
 - [Contributing](#contributors)
 - [Tests](#test)
+- [Questions](#questions)
 
 
 ## Installation Instructions:
@@ -34,6 +35,9 @@ This application is covered by the ${answers.license} license.
 
 ## Tests
  ${answers.test}
+
+## Questions
+ ${answers.questions}
 
 ## GitHub:
 <br />
