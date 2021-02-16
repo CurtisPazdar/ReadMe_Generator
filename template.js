@@ -1,11 +1,12 @@
 // generateReadme function populating the README.md
 function generateReadme(answers) {
     return `
-<h1 align="center">${answers.projectTitle} 👋</h1>
+<h1 align="center">${answers.projectTitle} </h1>
   
 ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)<br />
-- Description
-🔍 ${answers.description}
+<h3> Description </h3>
+ ${answers.description}
+ <br /><br />
 - Table of Contents
 - [Description](#description)
 - [Installation](#installationInstructions)
@@ -15,27 +16,30 @@ function generateReadme(answers) {
 - [Tests](#test)
 - [Links](#git)
 <br /><br />
--Installation Instructions:
+<h3>Installation Instructions:</h3>
  ${answers.installationInstructions}
  <br /><br />
-- Usage
+<h3>Usage</h3>
  ${answers.usage}
  <br /><br />
-- License
+ <h3>License</h3>
  ${answers.license}
  <br /><br />
 This application is covered by the ${answers.license} license. 
 <br /><br />
-- Contributing
+<h3>Contributing</h3>
  ${answers.contributors}
  <br /><br />
-- Tests
+ <h3>Tests</h3>
  ${answers.test}
 <br />
 <br />
-- GitHub: [${answers.git}](https://github.com/${answers.git})<br />
+<h3>GitHub</h3>:
 <br />
-- Email: ${answers.email}<br /><br />
+[${answers.git}](https://github.com/${answers.git})<br />
+<br />
+<h3>Email:</h3> <br />
+${answers.email}<br /><br />
 `;
   }
   

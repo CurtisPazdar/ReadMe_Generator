@@ -1,8 +1,9 @@
-<h1 align="center">Curtis Pazdar RMG 👋</h1>
+<h1 align="center">Curtis Pazdar </h1>
   
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
-- Description
-🔍  This application generates a read.me file.
+<h3> Description </h3>
+ fjkdlafdjlkafdslaj
+ <br /><br />
 - Table of Contents
 - [Description](#description)
 - [Installation](#installationInstructions)
@@ -12,24 +13,27 @@
 - [Tests](#test)
 - [Links](#git)
 <br /><br />
--Installation Instructions:
- npm install, npm inquirer.
+<h3>Installation Instructions:</h3>
+ jklfdaljkfjad'
  <br /><br />
-- Usage
- to save time creating read.me files
+<h3>Usage</h3>
+ jkdfla
  <br /><br />
-- License
+ <h3>License</h3>
  MIT
  <br /><br />
 This application is covered by the MIT license. 
 <br /><br />
-- Contributing
- Curtis Pazdar
+<h3>Contributing</h3>
+ fdkla
  <br /><br />
-- Tests
- I would like this to work 
+ <h3>Tests</h3>
+ jkfdla
 <br />
 <br />
-- GitHub: [CurtisPazdar](https://github.com/CurtisPazdar)<br />
+<h3>GitHub</h3>:
 <br />
-- Email: curtis.pazdar@gmail.com<br /><br />
+[fkdjla](https://github.com/fkdjla)<br />
+<br />
+<h3>Email:</h3> <br />
+jfkdl<br /><br />
