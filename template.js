@@ -5,8 +5,6 @@ function generateReadme(answers) {
   
 ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)<br />
 
-##Description 
- ${answers.description}
  <br /><br />
 - Table of Contents
 - [Description](#description)
@@ -17,6 +15,9 @@ function generateReadme(answers) {
 - [Tests](#test)
 - [Links](#git)
 <br /><br />
+
+##Description 
+ ${answers.description}
 ##Installation Instructions:
  ${answers.installationInstructions}
  <br /><br />
