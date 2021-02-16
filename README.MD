@@ -1,9 +1,8 @@
-
-<h1 align="center">Curtis Pazdar 👋</h1>
+<h1 align="center">Curtis Pazdar RMG 👋</h1>
   
-![badge](https://img.shields.io/badge/license-Mozilla-brightgreen)<br />
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 - Description
-🔍 I would like to get this to work properly
+🔍  This application generates a read.me file.
 - Table of Contents
 - [Description](#description)
 - [Installation](#installationInstructions)
@@ -12,20 +11,25 @@
 - [Contributing](#contributors)
 - [Tests](#test)
 - [Links](#git)
-<br>
+<br /><br />
 -Installation Instructions:
- There are no necessary installation instructions
+ npm install, npm inquirer.
+ <br /><br />
 - Usage
- NONE
+ to save time creating read.me files
+ <br /><br />
 - License
-![badge](https://img.shields.io/badge/license-Mozilla-brightgreen)
-<br />
-This application is covered by the Mozilla license. 
+ MIT
+ <br /><br />
+This application is covered by the MIT license. 
+<br /><br />
 - Contributing
- undefined
+ Curtis Pazdar
+ <br /><br />
 - Tests
- undefined
+ I would like this to work 
+<br />
 <br />
 - GitHub: [CurtisPazdar](https://github.com/CurtisPazdar)<br />
 <br />
-- Email: curtis.pazdar@email.com<br /><br />
+- Email: curtis.pazdar@gmail.com<br /><br />

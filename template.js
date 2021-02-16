@@ -14,19 +14,24 @@ function generateReadme(answers) {
 - [Contributing](#contributors)
 - [Tests](#test)
 - [Links](#git)
-<br>
+<br /><br />
 -Installation Instructions:
  ${answers.installationInstructions}
+ <br /><br />
 - Usage
  ${answers.usage}
+ <br /><br />
 - License
-![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
-<br />
+ ${answers.license}
+ <br /><br />
 This application is covered by the ${answers.license} license. 
+<br /><br />
 - Contributing
- ${answers.contributing}
+ ${answers.contributors}
+ <br /><br />
 - Tests
- ${answers.tests}
+ ${answers.test}
+<br />
 <br />
 - GitHub: [${answers.git}](https://github.com/${answers.git})<br />
 <br />
