@@ -1,9 +1,10 @@
 fs = require('fs');
 
-var inquirer = require('inquirer');
+const inquirer = require('inquirer');
 const template = require("./template")
 
-
+function generateUserInput() {
+  
 inquirer
   .prompt([
     {
@@ -20,6 +21,11 @@ inquirer
         type: 'input',
         message: 'Necessary installation instruction/requirements?',
         name: 'installationInstructions',
+      },
+      {
+        type: 'input',
+        message: 'Usage?',
+        name: 'usage',
       },
       {
         type: 'list',
@@ -59,4 +65,7 @@ inquirer
       console.log(data);
     });
   });
+};
+
+generateUserInput();
  
