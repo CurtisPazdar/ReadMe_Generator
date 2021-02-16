@@ -5,7 +5,7 @@ function generateReadme(answers) {
   
 ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)<br />
 
- <br /><br />
+ <br />
 - Table of Contents
 - [Description](#description)
 - [Installation](#installationInstructions)
@@ -14,24 +14,24 @@ function generateReadme(answers) {
 - [Contributing](#contributors)
 - [Tests](#test)
 - [Links](#git)
-<br /><br />
+<br />
 
 ##Description 
  ${answers.description}
 ##Installation Instructions:
  ${answers.installationInstructions}
- <br /><br />
+ <br />
 ##Usage
  ${answers.usage}
- <br /><br />
+ <br />
  ##License
  ${answers.license}
- <br /><br />
+ <br />
 This application is covered by the ${answers.license} license. 
-<br /><br />
+<br />
 ##Contributing
  ${answers.contributors}
- <br /><br />
+ <br />
  ##Tests
  ${answers.test}
 <br />

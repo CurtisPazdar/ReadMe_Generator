@@ -1,9 +1,8 @@
-<h1 align="center">fjkldafkldajd </h1>
+<h1 align="center">Curtis Pazdar </h1>
   
-![badge](https://img.shields.io/badge/license-ICS-brightgreen)<br />
+![badge](https://img.shields.io/badge/license-Open-brightgreen)<br />
 
-<br /><br />
-
+ <br />
 - Table of Contents
 - [Description](#description)
 - [Installation](#installationInstructions)
@@ -12,31 +11,31 @@
 - [Contributing](#contributors)
 - [Tests](#test)
 - [Links](#git)
-  <br /><br />
-  ##Description
-  fdakjlfjkdalfdla
-  <br /><br />
-  ##Installation Instructions:
-  fjdkalfaldkjfdakl
-  <br /><br />
-  ##Usage
-  fjdkalfjdlakjfd
-  <br /><br />
-  ##License
-  ICS
-  <br /><br />
-  This application is covered by the ICS license.
-  <br /><br />
-  ##Contributing
-  kjlklj
-  <br /><br />
-  ##Tests
-  fjdkalfldajk
-  <br />
-  <br />
-  ##GitHub:
-  <br />
-  [alslkj](https://github.com/alslkj)<br />
-  <br />
-  ##Email: <br />
-  fjkdlsfkal<br /><br />
+<br />
+
+##Description
+jklfdjklaf
+##Installation Instructions:
+jklljkkl
+<br />
+##Usage
+jfklda
+<br />
+##License
+Open
+<br />
+This application is covered by the Open license.
+<br />
+##Contributing
+adjfkl
+<br />
+##Tests
+dklajf
+<br />
+<br />
+##GitHub:
+<br />
+[jkdfal](https://github.com/jkdfal)<br />
+<br />
+##Email: <br />
+dfaklj<br /><br />
