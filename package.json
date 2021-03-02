@@ -1,0 +1,23 @@
+{
+  "name": "readme_generator",
+  "version": "1.0.0",
+  "description": "Read.me file generator",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CurtisPazdar/ReadMe_Generator.git"
+  },
+  "author": "Curtis Pazdar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CurtisPazdar/ReadMe_Generator/issues"
+  },
+  "homepage": "https://github.com/CurtisPazdar/ReadMe_Generator#readme"
+}
